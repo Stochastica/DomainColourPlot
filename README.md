@@ -11,10 +11,13 @@ saturation = 1/(1 + .3 log(1 + abs(z)))
 brightness = 1 - 1 / (1.1 + 5 log (1 + abs(z)))
 ```
 
-`DomainColourPlot[Zeta, {-10,10}, {-10,10}]` produces:
-![Riemann Zeta](/doc/riemann_zeta.png?raw=true "Riemann Zeta")
+`DomainColourPlot[Zeta, {-30,30}, {-30,30}]` produces:
+
+![Riemann Zeta](doc/riemann_zeta.png)
+
 `DomainColourPlot[Function[z,z^2], {-3,3}, {-3,3}]` produces:
-![Square](/doc/square.png?raw=true "Z squared")
+
+![Square](doc/square.png)
 
 ## Usage:
 
